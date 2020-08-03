@@ -6,7 +6,7 @@ is garbage, but it was fun.
 # usage
 
 ```bash
-usage: pyquiz.py [-h] [-o] [-b]
+usage: ravenmatrices.py [-h] [-o] [-b]
 
 Raven matrices iq test bruteforce
 
