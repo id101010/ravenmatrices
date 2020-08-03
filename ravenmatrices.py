@@ -113,6 +113,5 @@ if __name__ == '__main__':
     print("Figuring out stuff...")
     solution = maximize_iq()
     optimal = answer_dict_to_str(solution)
-    print("Sending: " + optimal)
     ret = query(optimal)
   print("Found optimal solution:\n\nOptimal: {}\n\nIQ: {}\n\nMessage: {}\n".format(optimal, ret["iq"], ret["str"]))

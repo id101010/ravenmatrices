@@ -1,6 +1,6 @@
 # ravenmatrices
 
-Smart bruteforcer for a silly online iq test. It's absolutely useless, the test
+"Smart" bruteforcer for a silly online iq test. It's absolutely useless, the test
 is garbage, but it was fun.
 
 # usage
@@ -26,9 +26,10 @@ I don't know.
 
 # how?
 
-There are 60 questions, a result below 12 correct answered questions is
+There are 60 questions, a result below 12 correct answered questions is somehow
 considered an IQ of 35. So I determined a baseline solution that gets the
-lowest IQ. The script just tries each possiblie solution for each question
+lowest possible IQ without dropping to 35. This happens to be 62 for some
+reasons. The script just tries each possible solution for each question
 and monitors the resulting IQ. A correct answer increases the result as there
-is only one correct answer in each set of questions. This means the script
+is only one correct answer in each set of questions. Which means the script
 plays 8*60 quizes and tortures the ajax api. This is fine.
